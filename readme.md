@@ -1,8 +1,8 @@
 # Clonability of anti-counterfeiting printable graphical codes: a machine learning approach
 
 ### Python requirements 
-- numpy
-- scipy
-- matplotlib
-- pytorch-gpu
-- torchvision-gpu
+* numpy
+* scipy
+* matplotlib
+* pytorch-gpu
+* torchvision-gpu
