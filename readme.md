@@ -15,6 +15,24 @@ The security of printable codes in terms of their reproducibility by unauthorize
 Fig.1: Generalized diagram of training procedure.  
 </p>
 
+The main goal of this work is to investigate the resistance of PGC to clonability attacks. The overwhelming majority of such attacks can be split into two main groups: (a) handcrafted attacks, which are based on the experience and knowhow of the attackers and (b) machine learning based attacks, which use training data to create clones of the original codes.
+
+In our work, we focus on the investigation of machine learning based attacks due to the recent advent in the theory and practice of machine learning tools. Growing popularity and remarkable results of deep neural network (DNN) architectures in computer vision applications motivated us to investigate the clonability of PGC using these architectures trained for different classes of printers.
+
+The main contributions are: 
+* we investigate the clonability of printable graphical codes using machine learning based attacks;
+* we examine the proposed framework on real printed codes reproduced with 4 printers;
+* we empirically demonstrate a possibility to sufficiently accurately clone the PGC from their printed counterparts in certain cases.
+
+To provide more understanding how the codes look, we visualize the sub-blocks of size 84 × 84 from several codes for each printer and the estimations deploying the BN as the best estimator in Fig. 2.
+ 
+<p align="center">
+<img src="http://sip.unige.ch/files/7215/5291/8832/2019_icassp_002.png" width="550px" align="center">
+<br/>
+<br/>
+Fig.2: Examples of attacks against PGC: two samples of scanned codes, the estimates produced by BN model
+and the difference between the original and estimated codes..  
+</p>
 
 ## Python requirements 
 * numpy
