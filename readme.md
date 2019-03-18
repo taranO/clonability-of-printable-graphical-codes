@@ -34,12 +34,21 @@ Fig.2: Examples of attacks against PGC: two samples of scanned codes, the estima
 and the difference between the original and estimated codes..  
 </p>
 
-## Python requirements 
+## Requirements 
 * numpy
 * scipy
 * matplotlib
 * pytorch-gpu
 * torchvision-gpu
+
+## Train 
+
+    $ python train_model.py --model_type=bn --code=sa --n_epochs=1000
+    
+## Test
+
+    $ python codes_regeneration.py --model_type=bn --code=sa --epoch=1000 --thr=0.5
+
 
 ## Citation
 O. Taran, S. Bonev, and S. Voloshynovskiy, "Clonability of anti-counterfeiting printable graphical codes: a machine learning approach," in Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Brighton, United Kingdom, 2019. 
