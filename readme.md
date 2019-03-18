@@ -45,6 +45,10 @@ and the difference between the original and estimated codes..
 
     $ python train_model.py --model_type=bn --code=sa --n_epochs=1000
     
+The threshold is estimated on the validation sub-set:     
+
+       $ python test_thr.py --model_type=bn --code=sa --n_epochs=1000
+       
 ## Test
 
     $ python codes_regeneration.py --model_type=bn --code=sa --epoch=1000 --thr=0.5
