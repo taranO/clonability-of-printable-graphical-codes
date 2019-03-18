@@ -27,7 +27,7 @@ The main contributions are:
 To provide more understanding how the codes look, we visualize the sub-blocks of size 84 × 84 from several codes for each printer and the estimations deploying the BN as the best estimator in Fig. 2.
  
 <p align="center">
-<img src="http://sip.unige.ch/files/7215/5291/8832/2019_icassp_002.png" width="550px" align="center">
+<img src="http://sip.unige.ch/files/7215/5291/8832/2019_icassp_002.png" width="750px" align="center">
 <br/>
 <br/>
 Fig.2: Examples of attacks against PGC: two samples of scanned codes, the estimates produced by BN model
