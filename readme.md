@@ -41,6 +41,10 @@ and the difference between the original and estimated codes..
 * pytorch-gpu
 * torchvision-gpu
 
+## Dataset
+
+The dataset is available at https://cuicloud.unige.ch/index.php/s/t65MFSNrS4dmMTQ
+
 ## Train 
 
     $ python train_model.py --model_type=bn --code=sa --n_epochs=1000
